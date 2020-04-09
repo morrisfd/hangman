@@ -12,4 +12,4 @@ export PYTHONPATH=$PYTHONPATH:~/git/hangman/src
 
 #To run pylint install from pip3
 #    1. pylint
-        pip3 install pylint:
+        pip3 install pylint
