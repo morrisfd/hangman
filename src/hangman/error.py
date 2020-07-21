@@ -1,4 +1,4 @@
-"""Custome exceptions for hangman"""
+"""Custom exceptions for hangman"""
 
 class Error(Exception):
     """Base class for Hangman exceptions"""
