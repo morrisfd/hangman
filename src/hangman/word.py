@@ -11,7 +11,7 @@ class Word:
         # Guesses
         self._guesses = []
         #Valid input pattern
-        self._valid_input_pattern = re.compile("^[A-Z]{1}$")
+        self._valid_input_pattern = re.compile("^[A-Z]$")
 
     @property
     def alive(self):
