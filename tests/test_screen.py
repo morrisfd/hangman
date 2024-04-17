@@ -65,7 +65,7 @@ class TestScreen(unittest.TestCase):
         with mock.patch("builtins.print") as mock_print:
             self._screen.goodbye()
             output = ",".join([str(x) for x in mock_print.call_args_list])
-        self.assertTrue("Goodbye" in output)
+        self.assertIn("Goodbye", output)
 
 if __name__ == "__main__":
     unittest.main()
