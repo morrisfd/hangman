@@ -16,13 +16,12 @@ class Game:
 
     def start(self):
         """Starts the game"""
-        self.game()
+        self.run_game()
         self.quit()
 
-    def game(self):
+    def run_game(self):
         """Play a single game of hangman"""
         word = Word(self._dictionary.get())
-        #word = Word("hangman")
         while True:
             # show the gallows and incorrect guesses
             Screen.clear()
