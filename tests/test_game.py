@@ -26,7 +26,7 @@ _SIMULATED_GAMES = {
 class MockDictionary:
     """Mocked Dictionary class that returns a word"""
     def __init__(self, exclude_words=None):
-        pass
+        pass #Not used at this time
 
     @staticmethod
     def get():
