@@ -40,7 +40,7 @@ class Game:
                 Screen.put(str(err))
                 time.sleep(2)
         if word.alive:
-            Screen.put(f"\tCongrats, you won!!!")
+            Screen.put("\tCongrats, you won!!!")
         else:
             Screen.put(f"\tI'm sorry. The word was {word.unmasked}")
 
